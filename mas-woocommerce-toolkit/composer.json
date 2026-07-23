@@ -1,0 +1,10 @@
+{
+  "name": "mas/woocommerce-toolkit",
+  "description": "Premium modular WooCommerce maintenance toolkit.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {"php": ">=8.2"},
+  "autoload": {"psr-4": {"MAS_WCT\\": "includes/"}},
+  "require-dev": {"wp-coding-standards/wpcs": "^3.0", "woocommerce/woocommerce-sniffs": "^1.0"},
+  "scripts": {"lint": "phpcs --standard=WordPress mas-woocommerce-toolkit.php includes"}
+}
